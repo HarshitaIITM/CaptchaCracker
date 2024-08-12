@@ -11,8 +11,6 @@ including wide and narrow layers and deep and shallow networks. We synthetically
 CAPTCHA dataset of varying complexity and used different libraries to avoid overfitting on one
 library. We trained on both fixed-and variable-length CAPTCHAs and were able to get accuracy
 levels of 99.8% and 80%, respectively. 
- 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap1.jpg)
 
 ## Dataset
 The dataset which is used here, is collected from Kaggle website. Here is the link of the dataset : https://www.kaggle.com/fournierp/captcha-version-2-images. The dataset contains CAPTCHA images. The images are **5 letter** words, and have noise applied (blur and a line). They are of size **200 x 50**. The file name is same as the image letters.
@@ -44,29 +42,7 @@ My approach is to train a **CNN** model for every letter that occurs in the **CA
 - Tensorflow
 - Keras
 - glob
-***********************************************
-## Data Visualization
-- **Plotting some CAPTCHAs**
 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap2.png)
-
-- **Label Distribution in CAPTCHAs**
-
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap3..png)
-
-- **Label distribution in test set**
-
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap4.png)
-********************************************
-## Model Visualization
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap5.png)
-******************************************
-## Recognitions 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap6.png) ![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap7.png)
-*******************************************
-## Error Visualization
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap8.png) ![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap9.png)
-*******************************************
 ## Conclusion
 * Convolution Neural Network provides the luxury of detecting the images in a single model frame work.
 * Here we have deployed the CNN model successfully, and it is working perfectly, recognizing the CAPTCHAs correctly.
@@ -77,4 +53,3 @@ My approach is to train a **CNN** model for every letter that occurs in the **CA
 **************************************
 ## Author
 Code Contributed by, Abhishek Sharma, 2021 @abhisheks008 #LGMSOC21
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
